@@ -28,6 +28,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+main {
+    min-height: 100vh - (2 * @headerFooterHeight);
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Pangolin', cursive;
 }
@@ -70,6 +74,10 @@ button {
             .concertVenue {
                 color: @orange;
             }
+        }
+
+        #concertLoading {
+            color: white;
         }
     }
 
@@ -272,6 +280,12 @@ input[type='checkbox'], input[type='radio'] {
                 border-color: darken(@green, 25%);
             }
         }
+    }
+
+    #concertLoading {
+        .fit-content();
+        margin: auto;
+        margin-top: 5vh;
     }
 }
 

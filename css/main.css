@@ -15,6 +15,9 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+main {
+  min-height: 84vh;
+}
 h1,
 h2,
 h3,
@@ -52,6 +55,9 @@ button:active {
 }
 .darkTheme .concertList .concertRow .concertVenue {
   color: #ffdfba;
+}
+.darkTheme .concertList #concertLoading {
+  color: white;
 }
 .darkTheme #themeSwitcher {
   background-color: #ffdfba;
@@ -216,6 +222,12 @@ input[type='radio'] {
 }
 .concertList .concertRow:hover .concertImg {
   border-color: #3bff65;
+}
+.concertList #concertLoading {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+  margin-top: 5vh;
 }
 @media screen and (max-width: 950px) {
   #navBar .hamburger {
