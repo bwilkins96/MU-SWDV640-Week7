@@ -40,7 +40,6 @@ function changeTheme() {
     }
 } 
 
-
 // Set theme to previously selected setting 
 function restoreTheme() {
     const theme = loadTheme();
