@@ -348,10 +348,6 @@ input[type='checkbox'], input[type='radio'] {
             align-items: center;
         }
 
-        .concertImg {
-            height: 165.5px;
-        }
-    
         .concertHeader {
             display: flex;
             flex-direction: column;
@@ -362,6 +358,13 @@ input[type='checkbox'], input[type='radio'] {
                 margin-bottom: 10px;
             }
         }
+    }  
+}
+
+@media screen and (max-width: 425px) {
+    .concertList {
+        .concertImg {
+            height: 165.5px;
+        }
     }
-   
 }

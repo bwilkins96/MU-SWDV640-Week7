@@ -275,9 +275,6 @@ input[type='radio'] {
   .concertList .concertInfoCol {
     align-items: center;
   }
-  .concertList .concertImg {
-    height: 165.5px;
-  }
   .concertList .concertHeader {
     display: flex;
     flex-direction: column;
@@ -286,5 +283,10 @@ input[type='radio'] {
   }
   .concertList .concertHeader p {
     margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .concertList .concertImg {
+    height: 165.5px;
   }
 }
